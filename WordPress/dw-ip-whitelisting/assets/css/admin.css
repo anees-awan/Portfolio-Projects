@@ -1,0 +1,172 @@
+
+/**
+ * @file
+ * Plugin admin styling.
+ *
+ * Created by: Anees
+ * https://10labz.com/
+ */
+
+
+/*****************************************************************************
+ * Form
+ ****************************************************************************/
+.dwei-uploader {
+  cursor: pointer;
+}
+.dwei-fieldset-div h3 {
+  cursor: auto!important;
+}
+.form-item select,
+.form-item input[type="text"] {
+  width: 200px;
+}
+.form-item textarea {
+  width: 400px;
+  height: 100px;
+}
+.form-item textarea:focus {
+  outline: 0;
+}
+.form-item input[type="checkbox"] {
+  margin-top: 6px;
+}
+.form-item.edit-template:not(.one-half) .field {
+  width: 100%;
+}
+.form-item.edit-template:not(.one-half) textarea {
+  font-family: Consolas, Monaco, monospace;
+  width: 100%;
+  margin-top: 6px;
+  height: 300px;
+}
+.form-item-clear {
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.form-item {
+  margin: 0 0 10px 0;
+  padding: 0 0 10px 0;
+  border-bottom: 1px dotted #CCC;
+  float: left;
+  width: 100%;
+}
+.form-item.last {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0 none;
+}
+.form-item.last.no-margin .spacer {
+  display: none;
+}
+.form-item>* {
+  float: left;
+}
+.form-item label {
+  padding-right: 10px;
+  width: 140px;
+  font-weight: bold;
+  vertical-align: top;
+  line-height: 25px;
+  min-height: 10px;
+  height: auto!important;
+  height: 10px;
+}
+.form-item .help {
+  font-size: 11px;
+  font-family: sans-serif;
+  color: #555;
+  padding: 6px 0;
+}
+.file-preview {
+  padding: 6px 0;
+}
+.file-preview img {
+  max-width: 400px;
+}
+.dwei-radios-wrapper label span {
+  padding: 0 10px 0 5px;
+}
+/* Form end */
+
+
+/*****************************************************************************
+ * Tabs
+ ****************************************************************************/
+.dwei-tabs {
+  float: right;
+  font-size: 12px;
+  margin: -7px -10px 0 0;
+}
+.dwei-tab-trigger {
+  cursor: pointer;
+  float: left;
+  line-height: 29px;
+  padding: 0 10px;
+  border-left: 1px solid #CCC;
+}
+.dwei-tab-trigger.active {
+  background: #FFF;
+}
+.dwei-fieldset-div #poststuff {
+  padding-top: 0;
+}
+/* Tabs end */
+
+
+/*****************************************************************************
+ * Various other styles
+ ****************************************************************************/
+
+/* Various other styles end */
+
+    .custom-admin-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .custom-admin-table th,
+    .custom-admin-table td {
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #ccc;
+    }
+
+    .custom-admin-table th {
+        background-color: #f2f2f2;
+    }
+    .custom-admin-table {
+      width: 100%;
+      border-collapse: collapse;
+  }
+
+  .custom-admin-table th,
+  .custom-admin-table td {
+      padding: 8px;
+      text-align: left;
+      border: 1px solid #ccc;
+  }
+
+  .custom-admin-table th {
+      background-color: #f2f2f2;
+  }
+
+  .pagination {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .pagination .page-numbers {
+      display: inline-block;
+      padding: 5px 10px;
+      margin: 0 5px;
+      background-color: #f2f2f2;
+      border-radius: 3px;
+      text-decoration: none;
+  }
+
+  .pagination .current-page {
+      background-color: #337ab7;
+      color: #fff;
+  }
