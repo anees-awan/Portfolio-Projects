@@ -1,4 +1,4 @@
-# DW IP Whitelisting Plugin
+# IP Whitelisting Plugin
 
 ## Backend Development:
 
