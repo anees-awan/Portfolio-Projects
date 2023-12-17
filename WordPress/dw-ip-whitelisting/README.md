@@ -1,20 +1,20 @@
-Plugin Name: DW IP Whitelisting Plugin
+# DW IP Whitelisting Plugin
 
-Backend Development:
+## Backend Development:
 
 The DW IP Whitelisting Plugin is a tailored security solution designed to fortify the admin login process with an additional layer of protection. Through this plugin, access to the admin panel is restricted exclusively to users originating from whitelisted IPs.
 
-Admin Panel Integration:
+### Admin Panel Integration:
 Upon installation, the plugin establishes an admin panel page dedicated to managing and displaying the list of authorized IPs.
 
-Enhanced Authentication Flow:
+### Enhanced Authentication Flow:
 Implemented a frontend interface enabling users to enter their username, triggering the generation of a One-Time Password (OTP) for heightened security.
 
 The subsequent page facilitates the submission of the OTP for verification purposes. Upon successful validation, users are seamlessly redirected to the login page, with their username and password fields pre-filled.
 
-Frontend Development:
+## Frontend Development:
 
-User Interaction:
+### User Interaction:
 Crafted intuitive frontend pages, optimizing user experience by facilitating the input of essential credentials.
 Engineered a streamlined OTP submission process, guiding users through a time-sensitive authentication flow. The OTP, valid for 60 seconds, provides an effective yet expedited security measure.
 
